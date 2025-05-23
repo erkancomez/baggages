@@ -1,17 +1,13 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Post 1"
-    },
-    {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
-    }
+  "languages": [
+    { "name": "Français", "explanation": "Bienvenue", "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg", "code": "fr" },
+    { "name": "English", "explanation": "Welcome", "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg", "code": "en" },
+    { "name": "Nederland", "explanation": "Welkom", "flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg", "code": "nl" }, 
+    { "name": "Español", "explanation": "Bienvenido", "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg", "code": "es" }, 
+    { "name": "Italiano", "explanation": "Benvenuto", "flag": "https://flagicons.lipis.dev/flags/4x3/it.svg", "code": "it" }, 
+    { "name": "Portugues", "explanation": "Bem-vindo", "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg", "code": "pt" }, 
+    { "name": "Türkçe", "explanation": "Hoş Geldiniz", "flag": "https://flagicons.lipis.dev/flags/4x3/tr.svg", "code": "tr" },
+    { "name": "العربية", "explanation": "أهلاً وسهلاً", "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg", "code": "sa" }
   ],
   "comments": [
     {
