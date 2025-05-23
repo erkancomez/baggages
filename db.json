@@ -90,42 +90,6 @@
         "number": "244"
       },
       {
-        "code": "AI",
-        "code3": "AIA",
-        "name": "Anguilla",
-        "number": "1264"
-      },
-      {
-        "code": "AQ",
-        "code3": "ATA",
-        "name": "Antarctica",
-        "number": "672"
-      },
-      {
-        "code": "AG",
-        "code3": "ATG",
-        "name": "Antigua and Barbuda",
-        "number": "268"
-      },
-      {
-        "code": "AR",
-        "code3": "ARG",
-        "name": "Argentina",
-        "number": "54"
-      },
-      {
-        "code": "AM",
-        "code3": "ARM",
-        "name": "Armenia",
-        "number": "374"
-      },
-      {
-        "code": "AW",
-        "code3": "ABW",
-        "name": "Aruba",
-        "number": "297"
-      },
-      {
         "code": "AU",
         "code3": "AUS",
         "name": "Australia",
@@ -184,36 +148,6 @@
         "code3": "BLZ",
         "name": "Belize",
         "number": "501"
-      },
-      {
-        "code": "BJ",
-        "code3": "BEN",
-        "name": "Benin",
-        "number": "229"
-      },
-      {
-        "code": "BM",
-        "code3": "BMU",
-        "name": "Bermuda",
-        "number": "1441"
-      },
-      {
-        "code": "BT",
-        "code3": "BTN",
-        "name": "Bhutan",
-        "number": "975"
-      },
-      {
-        "code": "BO",
-        "code3": "BOL",
-        "name": "Bolivia",
-        "number": "591"
-      },
-      {
-        "code": "BQ",
-        "code3": "BES",
-        "name": "Bonaire, Sint Eustatius and Saba",
-        "number": "599"
       }
     ]
   },
@@ -253,105 +187,6 @@
         "long": 41.11667
       },
       {
-        "city": "BEG",
-        "code": "BEG",
-        "country": "RS",
-        "cityName": "Belgrad",
-        "countryName": "Sırbistan",
-        "portName": "Belgrad Nikola Tesla Havalimanı",
-        "prediction": "Belgrad Nikola Tesla BEG Belgrad Sırbistan ",
-        "lat": 44.819168,
-        "long": 20.306944
-      },
-      {
-        "city": "BER",
-        "code": "BER",
-        "country": "DE",
-        "cityName": "Berlin",
-        "countryName": "Almanya",
-        "portName": "Brandenburg  Havalimanı",
-        "prediction": "Brandenburg  BER Berlin Almanya Berlin Brandenburg ",
-        "lat": 52.36667,
-        "long": 13.5
-      },
-      {
-        "city": "BEY",
-        "code": "BEY",
-        "country": "LB",
-        "cityName": "Beyrut",
-        "countryName": "Lübnan",
-        "portName": "Beyrut Refik Hariri Uluslararası Havalimanı",
-        "prediction": "Beyrut Refik Hariri Uluslararası BEY Beyrut Lübnan Beyrut Refik Hariri Uluslararası, Beirut",
-        "lat": 33.82083,
-        "long": 35.488335
-      },
-      {
-        "city": "BGG",
-        "code": "BGG",
-        "country": "TR",
-        "cityName": "Bingöl",
-        "countryName": "Türkiye",
-        "portName": "Bingöl Havalimanı",
-        "prediction": "Bingöl BGG Bingöl Türkiye BGG BİNGÖL BINGOL bingöl bıngol bıngöl",
-        "lat": 38.885086,
-        "long": 40.495605
-      },
-      {
-        "city": "FRU",
-        "code": "FRU",
-        "country": "KG",
-        "cityName": "Bişkek",
-        "countryName": "Kırgızistan",
-        "portName": "Manas Uluslararası Havalimanı",
-        "prediction": "Manas Uluslararası FRU Bişkek Kırgızistan Bişkek, manas",
-        "lat": 43.06139,
-        "long": 74.4775
-      },
-      {
-        "city": "BJV",
-        "code": "BJV",
-        "country": "TR",
-        "cityName": "Bodrum",
-        "countryName": "Türkiye",
-        "portName": "Milas / Bodrum Havalimanı",
-        "prediction": "Milas / Bodrum BJV Bodrum Türkiye BJV milas mugla MİLAS MILAS mılas muğla MUĞLA MUGLA bodrum bdrum bordum bodrm milas mils türkbükü gümüşlük",
-        "lat": 37.250557,
-        "long": 27.664444
-      },
-      {
-        "city": "BRU",
-        "code": "BRU",
-        "country": "BE",
-        "cityName": "Brüksel",
-        "countryName": "Belçika",
-        "portName": "Brüksel Havalimanı",
-        "prediction": "Brüksel BRU Brüksel Belçika Brüksel, Brussels",
-        "lat": 50.90222,
-        "long": 4.485833
-      },
-      {
-        "city": "BUD",
-        "code": "BUD",
-        "country": "HU",
-        "cityName": "Budapeşte",
-        "countryName": "Macaristan",
-        "portName": "Budapeşte Ferenc Liszt Uluslararası Havalimanı",
-        "prediction": "Budapeşte Ferenc Liszt Uluslararası BUD Budapeşte Macaristan ",
-        "lat": 47.43667,
-        "long": 19.255556
-      },
-      {
-        "city": "YEI",
-        "code": "YEI",
-        "country": "TR",
-        "cityName": "Bursa",
-        "countryName": "Türkiye",
-        "portName": "Yenişehir Havalimanı",
-        "prediction": "Yenişehir YEI Bursa Türkiye YEI yenisehir yenısehır yenisehır YENİŞEHİR YENISEHIR uludağ brsa busra inegöl iznik mudanya yenişehir",
-        "lat": 40.25528,
-        "long": 29.5625
-      },
-      {
         "city": "GVA",
         "code": "GVA",
         "country": "CH",
@@ -372,6 +207,136 @@
         "prediction": "Hatay  HTY Hatay Türkiye HTY HATAY hatay antakya antkya\tİskenderun‎",
         "lat": 36.2146,
         "long": 36.1656
+      }
+    ]
+  },
+  "airlines": {
+    "data": [
+      {
+        "id": "PC",
+        "lcc": "1",
+        "name": "Pegasus",
+        "logo": "https://images.kiwi.com/airlines/128/PC.png"
+      },
+      {
+        "id": "LS",
+        "lcc": "1",
+        "name": "Jet2",
+        "logo": "https://images.kiwi.com/airlines/128/LS.png"
+      },
+      {
+        "id": "TK",
+        "lcc": "0",
+        "name": "Turkish Airlines",
+        "logo": "https://images.kiwi.com/airlines/128/TK.png"
+      },
+      {
+        "id": "XQ",
+        "lcc": "1",
+        "name": "SunExpress",
+        "logo": "https://images.kiwi.com/airlines/128/XQ.png"
+      },
+      {
+        "id": "00",
+        "lcc": "1",
+        "name": "Anadolujet",
+        "logo": "https://images.kiwi.com/airlines/128/00.png"
+      },
+      {
+        "id": "AUTOSTRAD",
+        "lcc": "None",
+        "name": "Autostradale",
+        "logo": "https://images.kiwi.com/airlines/128/AUTOSTRAD.png"
+      },
+      {
+        "id": "EASTMIDLAN",
+        "lcc": "None",
+        "name": "East Midlands Trains",
+        "logo": "https://images.kiwi.com/airlines/128/EASTMIDLAN.png"
+      },
+      {
+        "id": "FLIBCO",
+        "lcc": "0",
+        "name": "Flibco",
+        "logo": "https://images.kiwi.com/airlines/128/FLIBCO.png"
+      },
+      {
+        "id": "SR",
+        "lcc": "0",
+        "name": "Sundair",
+        "logo": "https://images.kiwi.com/airlines/128/SR.png"
+      },
+      {
+        "id": "SAGALES",
+        "lcc": "None",
+        "name": "Sagales",
+        "logo": "https://images.kiwi.com/airlines/128/SAGALES.png"
+      },
+      {
+        "id": "EUROLINES",
+        "lcc": "0",
+        "name": "Eurolines",
+        "logo": "https://images.kiwi.com/airlines/128/EUROLINES.png"
+      },
+      {
+        "id": "ISILINES",
+        "lcc": "0",
+        "name": "Isilines",
+        "logo": "https://images.kiwi.com/airlines/128/ISILINES.png"
+      },
+      {
+        "id": "NOMAGO",
+        "lcc": "None",
+        "name": "Nomago",
+        "logo": "https://images.kiwi.com/airlines/128/NOMAGO.png"
+      },
+      {
+        "id": "WR",
+        "lcc": "1",
+        "name": "WestJet Encore",
+        "logo": "https://images.kiwi.com/airlines/128/WR.png"
+      },
+      {
+        "id": "CY",
+        "lcc": "0",
+        "name": "Cyprus Airways",
+        "logo": "https://images.kiwi.com/airlines/128/CY.png"
+      },
+      {
+        "id": "FLIXTRAIN",
+        "lcc": "0",
+        "name": "Flixtrain",
+        "logo": "https://images.kiwi.com/airlines/128/FLIXTRAIN.png"
+      },
+      {
+        "id": "P2",
+        "lcc": "1",
+        "name": "Air Kenya",
+        "logo": "https://images.kiwi.com/airlines/128/P2.png"
+      },
+      {
+        "id": "JY",
+        "lcc": "0",
+        "name": "interCaribbean Airways",
+        "logo": "https://images.kiwi.com/airlines/128/JY.png"
+      },
+      {
+        "id": "UU",
+        "lcc": "0",
+        "name": "Air Austral",
+        "logo": "https://images.kiwi.com/airlines/128/UU.png"
+      },
+      {
+        "id": "SZS",
+        "lcc": "None",
+        "name": "Scandinavian Airlines Ireland",
+        "logo": "https://images.kiwi.com/airlines/128/SZS.png"
+      },
+      {
+        "id": "GREYHOUND",
+        "lcc": "0",
+        "name": "Greyhound",
+        "logo": "https://images.kiwi.com/airlines/128/GREYHOUND.png"
       }
     ]
   }
