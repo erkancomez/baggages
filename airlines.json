@@ -1,0 +1,132 @@
+{
+    "airlines": {
+        "data": [
+            {
+                "id": "PC",
+                "lcc": "1",
+                "name": "Pegasus",
+                "logo": "https://images.kiwi.com/airlines/128/PC.png"
+            },
+            {
+                "id": "LS",
+                "lcc": "1",
+                "name": "Jet2",
+                "logo": "https://images.kiwi.com/airlines/128/LS.png"
+            },
+            {
+                "id": "TK",
+                "lcc": "0",
+                "name": "Turkish Airlines",
+                "logo": "https://images.kiwi.com/airlines/128/TK.png"
+            },
+            {
+                "id": "XQ",
+                "lcc": "1",
+                "name": "SunExpress",
+                "logo": "https://images.kiwi.com/airlines/128/XQ.png"
+            },
+            {
+                "id": "00",
+                "lcc": "1",
+                "name": "Anadolujet",
+                "logo": "https://images.kiwi.com/airlines/128/00.png"
+            },
+            {
+                "id": "AUTOSTRAD",
+                "lcc": "None",
+                "name": "Autostradale",
+                "logo": "https://images.kiwi.com/airlines/128/AUTOSTRAD.png"
+            },
+            {
+                "id": "EASTMIDLAN",
+                "lcc": "None",
+                "name": "East Midlands Trains",
+                "logo": "https://images.kiwi.com/airlines/128/EASTMIDLAN.png"
+            },
+            {
+                "id": "FLIBCO",
+                "lcc": "0",
+                "name": "Flibco",
+                "logo": "https://images.kiwi.com/airlines/128/FLIBCO.png"
+            },
+            {
+                "id": "SR",
+                "lcc": "0",
+                "name": "Sundair",
+                "logo": "https://images.kiwi.com/airlines/128/SR.png"
+            },
+            {
+                "id": "SAGALES",
+                "lcc": "None",
+                "name": "Sagales",
+                "logo": "https://images.kiwi.com/airlines/128/SAGALES.png"
+            },
+            {
+                "id": "EUROLINES",
+                "lcc": "0",
+                "name": "Eurolines",
+                "logo": "https://images.kiwi.com/airlines/128/EUROLINES.png"
+            },
+            {
+                "id": "ISILINES",
+                "lcc": "0",
+                "name": "Isilines",
+                "logo": "https://images.kiwi.com/airlines/128/ISILINES.png"
+            },
+            {
+                "id": "NOMAGO",
+                "lcc": "None",
+                "name": "Nomago",
+                "logo": "https://images.kiwi.com/airlines/128/NOMAGO.png"
+            },
+            {
+                "id": "WR",
+                "lcc": "1",
+                "name": "WestJet Encore",
+                "logo": "https://images.kiwi.com/airlines/128/WR.png"
+            },
+            {
+                "id": "CY",
+                "lcc": "0",
+                "name": "Cyprus Airways",
+                "logo": "https://images.kiwi.com/airlines/128/CY.png"
+            },
+            {
+                "id": "FLIXTRAIN",
+                "lcc": "0",
+                "name": "Flixtrain",
+                "logo": "https://images.kiwi.com/airlines/128/FLIXTRAIN.png"
+            },
+            {
+                "id": "P2",
+                "lcc": "1",
+                "name": "Air Kenya",
+                "logo": "https://images.kiwi.com/airlines/128/P2.png"
+            },
+            {
+                "id": "JY",
+                "lcc": "0",
+                "name": "interCaribbean Airways",
+                "logo": "https://images.kiwi.com/airlines/128/JY.png"
+            },
+            {
+                "id": "UU",
+                "lcc": "0",
+                "name": "Air Austral",
+                "logo": "https://images.kiwi.com/airlines/128/UU.png"
+            },
+            {
+                "id": "SZS",
+                "lcc": "None",
+                "name": "Scandinavian Airlines Ireland",
+                "logo": "https://images.kiwi.com/airlines/128/SZS.png"
+            },
+            {
+                "id": "GREYHOUND",
+                "lcc": "0",
+                "name": "Greyhound",
+                "logo": "https://images.kiwi.com/airlines/128/GREYHOUND.png"
+            }
+        ]
+    }
+}
