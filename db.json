@@ -1,12 +1,773 @@
 {
   "languages": [
-    { "name": "Français", "explanation": "Bienvenue", "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg", "code": "fr" },
-    { "name": "English", "explanation": "Welcome", "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg", "code": "en" },
-    { "name": "Nederland", "explanation": "Welkom", "flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg", "code": "nl" }, 
-    { "name": "Español", "explanation": "Bienvenido", "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg", "code": "es" }, 
-    { "name": "Italiano", "explanation": "Benvenuto", "flag": "https://flagicons.lipis.dev/flags/4x3/it.svg", "code": "it" }, 
-    { "name": "Portugues", "explanation": "Bem-vindo", "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg", "code": "pt" }, 
-    { "name": "Türkçe", "explanation": "Hoş Geldiniz", "flag": "https://flagicons.lipis.dev/flags/4x3/tr.svg", "code": "tr" },
-    { "name": "العربية", "explanation": "أهلاً وسهلاً", "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg", "code": "sa" }
+    {
+      "name": "Français",
+      "explanation": "Bienvenue",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg",
+      "code": "fr"
+    },
+    {
+      "name": "English",
+      "explanation": "Welcome",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg",
+      "code": "en"
+    },
+    {
+      "name": "Nederland",
+      "explanation": "Welkom",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg",
+      "code": "nl"
+    },
+    {
+      "name": "Español",
+      "explanation": "Bienvenido",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg",
+      "code": "es"
+    },
+    {
+      "name": "Italiano",
+      "explanation": "Benvenuto",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/it.svg",
+      "code": "it"
+    },
+    {
+      "name": "Portugues",
+      "explanation": "Bem-vindo",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg",
+      "code": "pt"
+    },
+    {
+      "name": "Türkçe",
+      "explanation": "Hoş Geldiniz",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/tr.svg",
+      "code": "tr"
+    },
+    {
+      "name": "العربية",
+      "explanation": "أهلاً وسهلاً",
+      "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg",
+      "code": "sa"
+    }
+  ],
+  "countries": [
+    {
+      "code": "TR",
+      "code3": "TUR",
+      "name": "Turkey",
+      "number": "90"
+    },
+    {
+      "code": "AL",
+      "code3": "ALB",
+      "name": "Albania",
+      "number": "355"
+    },
+    {
+      "code": "DZ",
+      "code3": "DZA",
+      "name": "Algeria",
+      "number": "213"
+    },
+    {
+      "code": "AS",
+      "code3": "ASM",
+      "name": "American Samoa",
+      "number": "684"
+    },
+    {
+      "code": "AD",
+      "code3": "AND",
+      "name": "Andorra",
+      "number": "376"
+    },
+    {
+      "code": "AO",
+      "code3": "AGO",
+      "name": "Angola",
+      "number": "244"
+    },
+    {
+      "code": "AI",
+      "code3": "AIA",
+      "name": "Anguilla",
+      "number": "1264"
+    },
+    {
+      "code": "AQ",
+      "code3": "ATA",
+      "name": "Antarctica",
+      "number": "672"
+    },
+    {
+      "code": "AG",
+      "code3": "ATG",
+      "name": "Antigua and Barbuda",
+      "number": "268"
+    },
+    {
+      "code": "AR",
+      "code3": "ARG",
+      "name": "Argentina",
+      "number": "54"
+    },
+    {
+      "code": "AM",
+      "code3": "ARM",
+      "name": "Armenia",
+      "number": "374"
+    },
+    {
+      "code": "AW",
+      "code3": "ABW",
+      "name": "Aruba",
+      "number": "297"
+    },
+    {
+      "code": "AU",
+      "code3": "AUS",
+      "name": "Australia",
+      "number": "61"
+    },
+    {
+      "code": "AT",
+      "code3": "AUT",
+      "name": "Austria",
+      "number": "43"
+    },
+    {
+      "code": "AZ",
+      "code3": "AZE",
+      "name": "Azerbaijan",
+      "number": "994"
+    },
+    {
+      "code": "BS",
+      "code3": "BHS",
+      "name": "Bahamas",
+      "number": "1242"
+    },
+    {
+      "code": "BH",
+      "code3": "BHR",
+      "name": "Bahrain",
+      "number": "973"
+    },
+    {
+      "code": "BD",
+      "code3": "BGD",
+      "name": "Bangladesh",
+      "number": "880"
+    },
+    {
+      "code": "BB",
+      "code3": "BRB",
+      "name": "Barbados",
+      "number": "1246"
+    },
+    {
+      "code": "BY",
+      "code3": "BLR",
+      "name": "Belarus",
+      "number": "375"
+    },
+    {
+      "code": "BE",
+      "code3": "BEL",
+      "name": "Belgium",
+      "number": "32"
+    },
+    {
+      "code": "BZ",
+      "code3": "BLZ",
+      "name": "Belize",
+      "number": "501"
+    },
+    {
+      "code": "BJ",
+      "code3": "BEN",
+      "name": "Benin",
+      "number": "229"
+    },
+    {
+      "code": "BM",
+      "code3": "BMU",
+      "name": "Bermuda",
+      "number": "1441"
+    },
+    {
+      "code": "BT",
+      "code3": "BTN",
+      "name": "Bhutan",
+      "number": "975"
+    },
+    {
+      "code": "BO",
+      "code3": "BOL",
+      "name": "Bolivia",
+      "number": "591"
+    },
+    {
+      "code": "BQ",
+      "code3": "BES",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "number": "599"
+    },
+    {
+      "code": "BA",
+      "code3": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "number": "387"
+    },
+    {
+      "code": "BW",
+      "code3": "BWA",
+      "name": "Botswana",
+      "number": "267"
+    },
+    {
+      "code": "BV",
+      "code3": "BVT",
+      "name": "Bouvet Island",
+      "number": "55"
+    },
+    {
+      "code": "BR",
+      "code3": "BRA",
+      "name": "Brazil",
+      "number": "55"
+    },
+    {
+      "code": "IO",
+      "code3": "IOT",
+      "name": "British Indian Ocean Territory",
+      "number": "246"
+    },
+    {
+      "code": "BN",
+      "code3": "BRN",
+      "name": "Brunei Darussalam",
+      "number": "673"
+    },
+    {
+      "code": "BG",
+      "code3": "BGR",
+      "name": "Bulgaria",
+      "number": "359"
+    },
+    {
+      "code": "BF",
+      "code3": "BFA",
+      "name": "Burkina Faso",
+      "number": "226"
+    },
+    {
+      "code": "BI",
+      "code3": "BDI",
+      "name": "Burundi",
+      "number": "257"
+    },
+    {
+      "code": "CV",
+      "code3": "CPV",
+      "name": "Cabo Verde",
+      "number": "238"
+    }
+  ],
+  "airports": [
+    {
+      "city": "ADF",
+      "code": "ADF",
+      "country": "TR",
+      "cityName": "Adıyaman",
+      "countryName": "Türkiye",
+      "portName": "Adıyaman Havalimanı",
+      "prediction": "Adıyaman ADF Adıyaman Türkiye ADF adiyaman ADIYAMAN ADİYAMAN adıyaman nemrut adyaman adıyamn adyamn",
+      "lat": 37.73137,
+      "long": 38.468937
+    },
+    {
+      "city": "AJI",
+      "code": "AJI",
+      "country": "TR",
+      "cityName": "Ağrı",
+      "countryName": "Türkiye",
+      "portName": "Ahmed-i Hani  Havalimanı",
+      "prediction": "Ahmed-i Hani  AJI Ağrı Türkiye AJI agri ağrı ağri AGRI AĞRI AĞRİ",
+      "lat": 39.65,
+      "long": 43.033333
+    },
+    {
+      "city": "GZP",
+      "code": "GZP",
+      "country": "TR",
+      "cityName": "Alanya",
+      "countryName": "Türkiye",
+      "portName": "Gazipaşa Havalimanı",
+      "prediction": "Gazipaşa GZP Alanya Türkiye GZP gazipaşa  gazipasa Gazipaşa GAZİPAŞA GAZIPASA gazıpasa alanya alnaya",
+      "lat": 36.299168,
+      "long": 32.300278
+    },
+    {
+      "city": "ALA",
+      "code": "ALA",
+      "country": "KZ",
+      "cityName": "Almatı",
+      "countryName": "Kazakistan",
+      "portName": "Almatı Havalimanı",
+      "prediction": "Almatı ALA Almatı Kazakistan ",
+      "lat": 43.351944,
+      "long": 77.040276
+    },
+    {
+      "city": "AMM",
+      "code": "AMM",
+      "country": "JO",
+      "cityName": "Amman",
+      "countryName": "Ürdün",
+      "portName": "Queen Alia Havalimanı",
+      "prediction": "Queen Alia AMM Amman Ürdün ",
+      "lat": 31.966667,
+      "long": 35.983334
+    },
+    {
+      "city": "AMS",
+      "code": "AMS",
+      "country": "NL",
+      "cityName": "Amsterdam",
+      "countryName": "Hollanda",
+      "portName": "Amsterdam Schiphol Havalimanı",
+      "prediction": "Amsterdam Schiphol AMS Amsterdam Hollanda Amsterdam Schiphol",
+      "lat": 52.30806,
+      "long": 4.76417
+    },
+    {
+      "city": "ANK",
+      "code": "ESB",
+      "country": "TR",
+      "cityName": "Ankara",
+      "countryName": "Türkiye",
+      "portName": "Esenboğa Havalimanı",
+      "prediction": "Esenboğa ESB Ankara Türkiye ESB ANKARA ESENBOGA ESENBOĞA esenboga esenboğa angara ankra beypazarı elmadağ şereflikoçhisar sereflikochisar",
+      "lat": 40.13333,
+      "long": 33
+    },
+    {
+      "city": "AYT",
+      "code": "AYT",
+      "country": "TR",
+      "cityName": "Antalya",
+      "countryName": "Türkiye",
+      "portName": "Antalya Havalimanı",
+      "prediction": "Antalya AYT Antalya Türkiye AYT belek atnalya antalya antlya antalay kaş side manavgat kas",
+      "lat": 36.916668,
+      "long": 30.8
+    },
+    {
+      "city": "NQZ",
+      "code": "NQZ",
+      "country": "KZ",
+      "cityName": "Astana",
+      "countryName": "Kazakistan",
+      "portName": "Nursultan Nazerbayev Uluslararası Havalimanı",
+      "prediction": "Nursultan Nazerbayev Uluslararası NQZ Astana Kazakistan ",
+      "lat": 51.031662,
+      "long": 71.46358
+    },
+    {
+      "city": "BGW",
+      "code": "BGW",
+      "country": "IQ",
+      "cityName": "Bağdat",
+      "countryName": "Irak",
+      "portName": "Bağdat Uluslararası Havalimanı",
+      "prediction": "Bağdat Uluslararası BGW Bağdat Irak Bağdat Baghdad ırak bağdat",
+      "lat": 33.283333,
+      "long": 44.5
+    },
+    {
+      "city": "BAH",
+      "code": "BAH",
+      "country": "BH",
+      "cityName": "Bahreyn",
+      "countryName": "Bahreyn",
+      "portName": "Bahreyn Uluslararası Havalimanı",
+      "prediction": "Bahreyn Uluslararası BAH Bahreyn Bahreyn Bahrain International",
+      "lat": 26,
+      "long": 50.5
+    },
+    {
+      "city": "BAK",
+      "code": "GYD",
+      "country": "AZ",
+      "cityName": "Bakü",
+      "countryName": "Azerbaycan",
+      "portName": "Haydar Aliyev Uluslararası Havalimanı",
+      "prediction": "Haydar Aliyev Uluslararası GYD Bakü Azerbaycan Haydar Aliyev Uluslararası, Bakü, Baku",
+      "lat": 40.4675,
+      "long": 50.046665
+    },
+    {
+      "city": "EDO",
+      "code": "EDO",
+      "country": "TR",
+      "cityName": "Balıkesir-Edremit",
+      "countryName": "Türkiye",
+      "portName": "Balıkesir Koca Seyit Havalimanı",
+      "prediction": "Balıkesir Edremit EDO Balıkesir Koca Seyit Havalimanı Türkiye",
+      "lat": 39.552666,
+      "long": 27.008167
+    },
+    {
+      "city": "BSL",
+      "code": "BSL",
+      "country": "CH",
+      "cityName": "Basel",
+      "countryName": "İsviçre",
+      "portName": "Basel Mulhouse Freiburg Havalimanı",
+      "prediction": "Basel Mulhouse Freiburg BSL Basel İsviçre ",
+      "lat": 47.58733,
+      "long": 7.533333
+    },
+    {
+      "city": "BAL",
+      "code": "BAL",
+      "country": "TR",
+      "cityName": "Batman",
+      "countryName": "Türkiye",
+      "portName": "Batman Havalimanı",
+      "prediction": "Batman BAL Batman Türkiye BAL batman Batman hasankeyf",
+      "lat": 37.86667,
+      "long": 41.11667
+    },
+    {
+      "city": "BEG",
+      "code": "BEG",
+      "country": "RS",
+      "cityName": "Belgrad",
+      "countryName": "Sırbistan",
+      "portName": "Belgrad Nikola Tesla Havalimanı",
+      "prediction": "Belgrad Nikola Tesla BEG Belgrad Sırbistan ",
+      "lat": 44.819168,
+      "long": 20.306944
+    },
+    {
+      "city": "BER",
+      "code": "BER",
+      "country": "DE",
+      "cityName": "Berlin",
+      "countryName": "Almanya",
+      "portName": "Brandenburg  Havalimanı",
+      "prediction": "Brandenburg  BER Berlin Almanya Berlin Brandenburg ",
+      "lat": 52.36667,
+      "long": 13.5
+    },
+    {
+      "city": "BEY",
+      "code": "BEY",
+      "country": "LB",
+      "cityName": "Beyrut",
+      "countryName": "Lübnan",
+      "portName": "Beyrut Refik Hariri Uluslararası Havalimanı",
+      "prediction": "Beyrut Refik Hariri Uluslararası BEY Beyrut Lübnan Beyrut Refik Hariri Uluslararası, Beirut",
+      "lat": 33.82083,
+      "long": 35.488335
+    },
+    {
+      "city": "BGG",
+      "code": "BGG",
+      "country": "TR",
+      "cityName": "Bingöl",
+      "countryName": "Türkiye",
+      "portName": "Bingöl Havalimanı",
+      "prediction": "Bingöl BGG Bingöl Türkiye BGG BİNGÖL BINGOL bingöl bıngol bıngöl",
+      "lat": 38.885086,
+      "long": 40.495605
+    },
+    {
+      "city": "FRU",
+      "code": "FRU",
+      "country": "KG",
+      "cityName": "Bişkek",
+      "countryName": "Kırgızistan",
+      "portName": "Manas Uluslararası Havalimanı",
+      "prediction": "Manas Uluslararası FRU Bişkek Kırgızistan Bişkek, manas",
+      "lat": 43.06139,
+      "long": 74.4775
+    },
+    {
+      "city": "BJV",
+      "code": "BJV",
+      "country": "TR",
+      "cityName": "Bodrum",
+      "countryName": "Türkiye",
+      "portName": "Milas / Bodrum Havalimanı",
+      "prediction": "Milas / Bodrum BJV Bodrum Türkiye BJV milas mugla MİLAS MILAS mılas muğla MUĞLA MUGLA bodrum bdrum bordum bodrm milas mils türkbükü gümüşlük",
+      "lat": 37.250557,
+      "long": 27.664444
+    },
+    {
+      "city": "BRU",
+      "code": "BRU",
+      "country": "BE",
+      "cityName": "Brüksel",
+      "countryName": "Belçika",
+      "portName": "Brüksel Havalimanı",
+      "prediction": "Brüksel BRU Brüksel Belçika Brüksel, Brussels",
+      "lat": 50.90222,
+      "long": 4.485833
+    },
+    {
+      "city": "BUD",
+      "code": "BUD",
+      "country": "HU",
+      "cityName": "Budapeşte",
+      "countryName": "Macaristan",
+      "portName": "Budapeşte Ferenc Liszt Uluslararası Havalimanı",
+      "prediction": "Budapeşte Ferenc Liszt Uluslararası BUD Budapeşte Macaristan ",
+      "lat": 47.43667,
+      "long": 19.255556
+    },
+    {
+      "city": "YEI",
+      "code": "YEI",
+      "country": "TR",
+      "cityName": "Bursa",
+      "countryName": "Türkiye",
+      "portName": "Yenişehir Havalimanı",
+      "prediction": "Yenişehir YEI Bursa Türkiye YEI yenisehir yenısehır yenisehır YENİŞEHİR YENISEHIR uludağ brsa busra inegöl iznik mudanya yenişehir",
+      "lat": 40.25528,
+      "long": 29.5625
+    },
+    {
+      "city": "GVA",
+      "code": "GVA",
+      "country": "CH",
+      "cityName": "Cenevre",
+      "countryName": "İsviçre",
+      "portName": "Cenevre Cointrin Havalimanı",
+      "prediction": "Cenevre Cointrin Havalimanı GVA Cenevre İsviçre",
+      "lat": 46.23806,
+      "long": 6.10895
+    },
+    {
+      "city": "ALG",
+      "code": "ALG",
+      "country": "DZ",
+      "cityName": "Cezayir",
+      "countryName": "Cezayir",
+      "portName": "Houari Boumediene Havalimanı",
+      "prediction": "Houari Boumediene Havalimanı Huari Bumedyen Havalimanı ALG Cezayir ",
+      "lat": 36.697823,
+      "long": 3.206833
+    },
+    {
+      "city": "JED",
+      "code": "JED",
+      "country": "SA",
+      "cityName": "Cidde",
+      "countryName": "Suudi Arabistan",
+      "portName": "Kral Abdulaziz Uluslararası Havalimanı",
+      "prediction": "Kral Abdulaziz Uluslararası JED Cidde Suudi Arabistan Kral Abdulaziz Uluslararası, Cidde, Jeddah",
+      "lat": 21.679443,
+      "long": 39.156666
+    },
+    {
+      "city": "CKZ",
+      "code": "CKZ",
+      "country": "TR",
+      "cityName": "Çanakkale",
+      "countryName": "Türkiye",
+      "portName": "Çanakkale Havalimanı",
+      "prediction": "Çanakkale CKZ Çanakkale Türkiye CKZ canakkale çanakkale Çanakkale ÇANAKKALE CANAKKALE çanakale canakale çankkale gelibolu",
+      "lat": 40.137722,
+      "long": 26.426777
+    },
+    {
+      "city": "QIN",
+      "code": "COV",
+      "country": "TR",
+      "cityName": "Çukurova",
+      "countryName": "Türkiye",
+      "portName": "Çukurova Uluslararası Havalimanı",
+      "prediction": "Çukurova Havalimanı COV Adana Mersin Adana Şakirpaşa Havalimanı ADA Mersin Havalimanı Cukur",
+      "lat": 36.890907,
+      "long": 35.070522
+    },
+    {
+      "city": "DLM",
+      "code": "DLM",
+      "country": "TR",
+      "cityName": "Dalaman",
+      "countryName": "Türkiye",
+      "portName": "Dalaman Havalimanı",
+      "prediction": "Dalaman DLM Dalaman Türkiye DLM dalaman mUĞLa muğla mugla MUGLA dlman dalamn fethiye marmaris",
+      "lat": 36.716667,
+      "long": 28.783333
+    },
+    {
+      "city": "DMM",
+      "code": "DMM",
+      "country": "SA",
+      "cityName": "Dammam",
+      "countryName": "Suudi Arabistan",
+      "portName": "Kral Fahd Uluslararası Havalimanı",
+      "prediction": "Kral Fahd Uluslararası DMM Dammam Suudi Arabistan Kral Fahd Uluslararası, Dammam",
+      "lat": 26.471111,
+      "long": 49.79778
+    },
+    {
+      "city": "DNZ",
+      "code": "DNZ",
+      "country": "TR",
+      "cityName": "Denizli",
+      "countryName": "Türkiye",
+      "portName": "Çardak Havalimanı",
+      "prediction": "Çardak DNZ Denizli Türkiye DNZ denizli DENIZLI denızlı DENİZLİ denizlı denızli cardak çardak ÇARDAK CARDAK",
+      "lat": 37.787224,
+      "long": 29.703333
+    },
+    {
+      "city": "DIY",
+      "code": "DIY",
+      "country": "TR",
+      "cityName": "Diyarbakır",
+      "countryName": "Türkiye",
+      "portName": "Diyarbakır Havalimanı",
+      "prediction": "Diyarbakır DIY Diyarbakır Türkiye DIY diyarbakır dıyarbakır DİYARBAKIR DİYARBAKİR DIYARBAKİR DIYARBAKIR diyerbekir diyerbakır diyarbekir",
+      "lat": 37.9,
+      "long": 40.2
+    },
+    {
+      "city": "DXB",
+      "code": "DXB",
+      "country": "AE",
+      "cityName": "Dubai",
+      "countryName": "Birleşik Arap Emirlikleri",
+      "portName": "Dubai Uluslararası Havalimanı",
+      "prediction": "Dubai Uluslararası DXB Dubai Birleşik Arap Emirlikleri Dubai",
+      "lat": 25.25,
+      "long": 55.333332
+    },
+    {
+      "city": "DUS",
+      "code": "DUS",
+      "country": "DE",
+      "cityName": "Düsseldorf",
+      "countryName": "Almanya",
+      "portName": "Düsseldorf Rhein Ruhr Uluslararası Havalimanı",
+      "prediction": "Düsseldorf Rhein Ruhr Uluslararası DUS Düsseldorf Almanya Düsseldorf Rhein Ruhr Uluslararası, Dusseldorf, Düsseldorf",
+      "lat": 51.289444,
+      "long": 6.766667
+    },
+    {
+      "city": "EZS",
+      "code": "EZS",
+      "country": "TR",
+      "cityName": "Elazığ",
+      "countryName": "Türkiye",
+      "portName": "Elazığ Havalimanı",
+      "prediction": "Elazığ EZS Elazığ Türkiye EZS elazığ elazıg ELAZIG ELAZIĞ ELAZİĞ elazig elaziğ Harput\telazig",
+      "lat": 38.60667,
+      "long": 39.29139
+    },
+    {
+      "city": "EBL",
+      "code": "EBL",
+      "country": "IQ",
+      "cityName": "Erbil",
+      "countryName": "Irak",
+      "portName": "Erbil Havalimanı",
+      "prediction": "Erbil EBL Erbil Irak Erbil",
+      "lat": 36.2375,
+      "long": 43.963055
+    },
+    {
+      "city": "ERC",
+      "code": "ERC",
+      "country": "TR",
+      "cityName": "Erzincan",
+      "countryName": "Türkiye",
+      "portName": "Erzincan Havalimanı",
+      "prediction": "Erzincan ERC Erzincan Türkiye ERC erzincan ERZİNCAN ERZINCAN ersincan erzncan erzincn",
+      "lat": 39.716667,
+      "long": 39.516666
+    },
+    {
+      "city": "ERZ",
+      "code": "ERZ",
+      "country": "TR",
+      "cityName": "Erzurum",
+      "countryName": "Türkiye",
+      "portName": "Erzurum Havalimanı",
+      "prediction": "Erzurum ERZ Erzurum Türkiye ERZ erzurum ERZURUM erzrum Oltu Palandöken",
+      "lat": 39.95639,
+      "long": 41.170277
+    },
+    {
+      "city": "FRA",
+      "code": "FRA",
+      "country": "DE",
+      "cityName": "Frankfurt",
+      "countryName": "Almanya",
+      "portName": "Frankfurt Havalimanı",
+      "prediction": "Frankfurt FRA Frankfurt Almanya Frankfurt fra",
+      "lat": 50.02639,
+      "long": 8.543056
+    },
+    {
+      "city": "GZT",
+      "code": "GZT",
+      "country": "TR",
+      "cityName": "Gaziantep",
+      "countryName": "Türkiye",
+      "portName": "Gaziantep Havalimanı",
+      "prediction": "Gaziantep GZT Gaziantep Türkiye GZT gaziantep GAZIANTEP GAZİANTEP antep andep gazi gazı Zeugma antep entep gazientep Kilis",
+      "lat": 37.066666,
+      "long": 37.333332
+    },
+    {
+      "city": "YKO",
+      "code": "YKO",
+      "country": "TR",
+      "cityName": "Hakkari",
+      "countryName": "Türkiye",
+      "portName": "Yüksekova Selahaddin Eyyubi Havalimanı",
+      "prediction": "Yüksekova Selahaddin Eyyubi YKO Hakkari Türkiye YKO Yuksekova YÜKSEKOVA YUKSEKOVA yuksekove HAKKARİ HAKKARI hakkarı hakari",
+      "lat": 37.57635,
+      "long": 43.736893
+    },
+    {
+      "city": "HAM",
+      "code": "HAM",
+      "country": "DE",
+      "cityName": "Hamburg",
+      "countryName": "Almanya",
+      "portName": "Fuhlsbüttel Havalimanı",
+      "prediction": "Fuhlsbüttel HAM Hamburg Almanya Hamburg almanya",
+      "lat": 53.63333,
+      "long": 9.983333
+    },
+    {
+      "city": "HAJ",
+      "code": "HAJ",
+      "country": "DE",
+      "cityName": "Hannover",
+      "countryName": "Almanya",
+      "portName": "Hannover Havalimanı",
+      "prediction": "Hannover HAJ Hannover Almanya Hannover almanya",
+      "lat": 52.46111,
+      "long": 9.685
+    },
+    {
+      "city": "HTY",
+      "code": "HTY",
+      "country": "TR",
+      "cityName": "Hatay",
+      "countryName": "Türkiye",
+      "portName": "Hatay  Havalimanı",
+      "prediction": "Hatay  HTY Hatay Türkiye HTY HATAY hatay antakya antkya\tİskenderun‎",
+      "lat": 36.2146,
+      "long": 36.1656
+    }
   ]
 }
