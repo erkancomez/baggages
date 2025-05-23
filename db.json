@@ -1,12 +1,31 @@
 {
-  "languages": [
-    { "name": "Français", "greeting": "Bienvenue", "flag": "https://flagicons.lipis.dev/flags/4x3/fr.svg", "countryCode": "fr" },
-    { "name": "English", "greeting": "Welcome", "flag": "https://flagicons.lipis.dev/flags/4x3/gb.svg", "countryCode": "en" },
-    { "name": "Nederland", "greeting": "Welkom", "flag": "https://flagicons.lipis.dev/flags/4x3/nl.svg", "countryCode": "nl" },
-    { "name": "Español", "greeting": "Bienvenido", "flag": "https://flagicons.lipis.dev/flags/4x3/es.svg", "countryCode": "es" },
-    { "name": "Italiano", "greeting": "Benvenuto", "flag": "https://flagicons.lipis.dev/flags/4x3/it.svg", "countryCode": "it" },
-    { "name": "Portugues", "greeting": "Bem-vindo", "flag": "https://flagicons.lipis.dev/flags/4x3/pt.svg", "countryCode": "pt" },
-    { "name": "Türkçe", "greeting": "Hoş Geldiniz", "flag": "https://flagicons.lipis.dev/flags/4x3/tr.svg", "countryCode": "tr" },
-    { "name": "العربية", "greeting": "أهلاً وسهلاً", "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg", "countryCode": "sa" }
-  ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
