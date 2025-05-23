@@ -1,4 +1,4 @@
-{"airports":[
+{"airports":     {"data":[ 
   {
     "city": "ADF",
     "code": "ADF",
@@ -1066,4 +1066,4 @@
     "lat": 47.46472,
     "long": 8.549167
   }
-]}
+]}}

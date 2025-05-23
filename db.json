@@ -1,5 +1,5 @@
 {
-  "languages": [
+  "languages":      {"data":[ 
     {
       "name": "Français",
       "explanation": "Bienvenue",
@@ -48,8 +48,8 @@
       "flag": "https://flagicons.lipis.dev/flags/4x3/sa.svg",
       "code": "sa"
     }
-  ],
-  "countries": [
+  ]},
+  "countries":      {"data":[ 
     {
       "code": "TR",
       "code3": "TUR",
@@ -212,8 +212,8 @@
       "name": "Bonaire, Sint Eustatius and Saba",
       "number": "599"
     }
-  ],
-  "airports": [
+  ]},
+  "airports":     {"data":[ 
     {
       "city": "EDO",
       "code": "EDO",
@@ -368,5 +368,5 @@
       "lat": 36.2146,
       "long": 36.1656
     }
-  ]
+  ]}
 }
